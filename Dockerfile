@@ -1,10 +1,10 @@
 # for Frontend
-FROM ubuntu:xenial
+FROM ubuntu:bionic
 
-RUN apt-get update -y \
+RUN apt-get update -y && \
     apt-get install -y \
-    python \
-    python-pip \
+    python3 \
+    python3-pip \
     nodejs \
     npm \
     git \
